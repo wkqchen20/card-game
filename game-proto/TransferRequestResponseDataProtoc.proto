@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "com.wkqchen20.game.common";
+option java_outer_classname = "TransferRequestResponseData";
+
+message TransferRequestResponseDataProto{
+	
+	string command = 1;
+	
+	string data = 2;
+
+}
